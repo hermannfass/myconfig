@@ -2,6 +2,8 @@
 set enc=utf-8
 " Show line and column at the status line:
 set ruler
+" line numbers
+set nu
 " textwidth - at what position to break lines:
 set tw=78
 " tabstop (ts) - how many spaces the <Tab> key enters:
