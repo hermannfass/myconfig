@@ -17,4 +17,6 @@ set ic
 " smartcase / nosmartcase (scs / noscs) -
 " case sensitive search if query contains upper case:
 set scs
+" syntax off - turn off syntax highlighting
+syn off
 
