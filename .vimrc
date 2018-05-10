@@ -4,8 +4,12 @@ set enc=utf-8
 set ruler
 " line numbers
 set nu
-" textwidth - at what position to break lines:
-set tw=78
+" textwidth - at what position to break lines 
+" Textwidth of 0 means no automatic line break.
+set tw=0
+" wrap / nowrap - fold / do not fold lines for display
+" You will need to scroll right if window is smaller than tw.
+set nowrap
 " tabstop (ts) - how many spaces the <Tab> key enters:
 set ts=4
 " expandtab - convert tabs into spaces (use <C-v><Tab> to insert a real tab:
@@ -19,4 +23,5 @@ set ic
 set scs
 " syntax off - turn off syntax highlighting
 syn off
+
 
